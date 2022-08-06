@@ -1,6 +1,6 @@
 <a id="top"></a>
 # mathlaw
-A C++ Math library containing functions, classes and methods to perform simple to advanced mathematical operations.
+A C++ Math library containing functions and classes to perform simple to advanced mathematical operations.
 
 ### Table of Contents<br>
 **[Algebra](#algebra)**<br>
