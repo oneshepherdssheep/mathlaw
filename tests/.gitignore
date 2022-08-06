@@ -1,0 +1,5 @@
+# ignore cmake-* generated directory
+cmake-*
+
+# ignore IDE generated directory
+.idea*

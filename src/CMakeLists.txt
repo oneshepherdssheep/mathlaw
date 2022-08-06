@@ -1,0 +1,7 @@
+set(LIBRARY_SOURCES "mathlaw.cpp")
+set(LIBRARY_HEADERS "mathlaw.h")
+set(LIBRARY_INCLUDES "./")
+
+add_library(${LIBRARY_NAME} SHARED ${LIBRARY_SOURCES} ${LIBRARY_HEADERS})
+set_target_properties(${LIBRARY_NAME} PROPERTIES VERSION ${PROJECT_VERSION} SOVERSION 1 PUBLIC_HEADER mathlaw.h)
+target_include_directories(${LIBRARY_NAME} PUBLIC ${LIBRARY_INCLUDES})

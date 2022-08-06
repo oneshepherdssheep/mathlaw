@@ -1,0 +1,5 @@
+set(TEST_MAIN "number_tests")
+set(TEST_SOURCES "test_prime_numbers.cpp")
+add_executable(${TEST_MAIN} ${TEST_SOURCES})
+target_link_libraries(${TEST_MAIN} PUBLIC ${LIBRARY_NAME})
+target_link_libraries(${TEST_MAIN} PRIVATE ${CONAN_CATCH2})
