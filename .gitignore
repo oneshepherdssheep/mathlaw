@@ -2,5 +2,5 @@
 cmake-*
 
 #ignore specific IDE directories
-.idea-*
+.idea*
 
