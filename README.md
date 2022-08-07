@@ -1,5 +1,8 @@
 <a id="top"></a>
-# mathlaw
+![Linux/CMake](https://github.com/oneshepherdssheep/mathlaw/actions/workflows/linux-cmake-build.yml/badge.svg)
+
+# What is mathlaw ?
+
 A C++ Math library containing functions and classes to perform simple to advanced mathematical operations.
 
 ### Table of Contents<br>
