@@ -27,8 +27,11 @@ jobs:
         
     - name: Install Catch2
       run: |
-        sudo apt-get update
-        sudo apt-get -y install catch2
+        git clone https://github.com/catchorg/Catch2.git
+        cd Catch2
+        git checkout v2.x
+        cmake -Bbuild -H. -DBUILD_TESTING=OFF
+        sudo cmake --build build/ --target install
         
     - name: Display tools versions
       run: |
