@@ -3,3 +3,7 @@ cmake-*
 
 # ignore IDE generated directory
 .idea*
+
+# ignore temporary files from vim/emacs
+*~
+
