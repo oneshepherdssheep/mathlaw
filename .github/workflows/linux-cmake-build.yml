@@ -48,27 +48,27 @@ jobs:
       # Build your program with the given configuration
       run: cmake --build ${{github.workspace}}/build --config ${{env.BUILD_TYPE}}
 
-    - name: Testing Algebra Component
-      working-directory: ${{github.workspace}}/build
-      run: tests/number/algebra_tests
+    # - name: Testing Algebra Component
+    #   working-directory: ${{github.workspace}}/build
+    #   run: tests/number/algebra_tests
       
-    - name: Testing Calculus Component
-      working-directory: ${{github.workspace}}/build
-      run: tests/number/calculus_tests
+    #  - name: Testing Calculus Component
+    #   working-directory: ${{github.workspace}}/build
+    #   run: tests/number/calculus_tests
       
-    - name: Testing Discrete Component
-      working-directory: ${{github.workspace}}/build
-      run: tests/number/discrete_tests
+    #  - name: Testing Discrete Component
+    #   working-directory: ${{github.workspace}}/build
+    #  run: tests/number/discrete_tests
       
-    - name: Testing Geometry Component
-      working-directory: ${{github.workspace}}/build
-      run: tests/number/geometry_tests
+    #  - name: Testing Geometry Component
+    #   working-directory: ${{github.workspace}}/build
+    #   run: tests/number/geometry_tests
       
     - name: Testing Number Component
       working-directory: ${{github.workspace}}/build
       run: tests/number/number_tests
       
-    - name: Testing Statistics Component
-      working-directory: ${{github.workspace}}/build
-      run: tests/number/statistics_tests
+    # - name: Testing Statistics Component
+    #   working-directory: ${{github.workspace}}/build
+    #   run: tests/number/statistics_tests
       
